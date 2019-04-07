@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF=8">
+	<title></title>
+	<style>
+		*{margin:0;padding:0;font-size:14px;}
+		ul{list-style: none;height:50px;padding-left:30px border-bottom: 5px solid #F60;}
+		li{float:left;margin-top:20px}
+		a{text-decoration: none;display: block;height: 30px;
+		line-height: 30px;width:120px;background-color: darkseagreen;
+		margin-bottom:1px;text-align: center;background:url(btnBg.png);}
+		.on,a:hover{color:#fff;background-position:0 -30px}
+	</style>
+	</head>
+	<body overflow-x:hidden;>
+		
+		<ul>
+			<li><a class="on"  href="#">个人简介</a></li>
+			<li><a href="#">开发经历</a></li>
+			<li><a href="#">github项目</a></li>
+
+		</ul>
+		
+		<canvas id="canvas" style="display:block;margin:50px auto;vertical-align:top; ">
+		</canvas>
+		
+		<script type="text/javascript" src="digit.js"></script>
+		<script type="text/javascript" src="countdown.js"></script>
+	</body>
+</html>
